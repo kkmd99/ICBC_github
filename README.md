@@ -46,19 +46,12 @@ ICBS test
 
 
 
-使用方法
-
-conda搭建虛擬環境:
-
+使用方法:
 ```bash
-
+conda搭建虛擬環境:
 conda create -n market python=3.8 
 
-
-
-验证函数计算结果的正确性
-
-```bash
+验证函数计算结果的正确性:
 python evaluation.py
 
 
