@@ -39,7 +39,7 @@
   ```
 ---
 
-## Usage examples
+## Test examples
 
 - **測試案例 1：蘋果1斤、草莓1斤(打8折)、芒果10斤**
   ```python
