@@ -14,7 +14,7 @@ cart.add(mango, 10)
 total = cart.total()
 #total = Full100Minus10().apply(total) #滿100減10
 
-assert total == 8 + 10.4 + 200, f"期望 218.4，實際 {total}"
+assert total == 8 + 13*0.8 + 20 * 10, f"期望 218.4，實際 {total}"
 print(f"測試1: 期望218.4，實際 {total}")
 
 # 測試案例 2：蘋果6斤、草莓3斤(打8折)、芒果2斤 + 滿100減10
@@ -31,6 +31,6 @@ cart.add(mango, 2)
 total = cart.total()
 total = Full100Minus10().apply(total) #滿100減10
 
-assert total == (6*8 + 3*10.4 + 2*20) - 10, f"期望 109.2，實際 {total}"
+assert total == (8*6 + 13*3*0.8 + 20*2) - 10, f"期望 109.2，實際 {total}"
 print(f"測試2: 期望109.2，實際 {total}")
 print("所有測試通過 ✔")
