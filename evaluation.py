@@ -1,9 +1,5 @@
 from main import Fruit, Cart, StrawberryDiscount, Full100Minus10
 
-# 控制折扣開關
-strawberrydiscount = 1 #若strawberrydiscount為1則草莓限时打 8 折
-full100minus10 = 1 #若full100minus10為1則购物满 100 减 10 块
-
 # 測試案例 1：蘋果1斤、草莓1斤(打8折)、芒果10斤
 apple = Fruit("apple", 8)
 strawberry = Fruit("strawberry", 13)
